@@ -86,6 +86,11 @@ nav a.selected, nav a:hover {
     color: #32673f;
 }
 
+nav a {
+    font-weight: 800;
+    padding: 15px 10px; /* Should make tapping on mobile devices easier */
+}
+
 /***************
     WRAPPER
 ***************/
