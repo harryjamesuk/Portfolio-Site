@@ -39,7 +39,6 @@ a {
 }
 
 /* h2 font formatting */
-
 #logo h2 {
     font-size: 0.75em;
     margin: -5px 0 0;
@@ -47,6 +46,10 @@ a {
 
 /* Green header */
 header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
     background: #6ab47b;
     border-color: #599a68;
 }
@@ -61,6 +64,16 @@ nav {
     text-align: center;
     padding: 10px 0;
     margin: 20px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
 }
 
 /* Nav link color */
