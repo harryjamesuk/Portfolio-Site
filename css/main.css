@@ -1,41 +1,60 @@
+/***************
+    GENERAL
+***************/
+
+/* Site body */
+body {
+    background-color: #fff;
+    color: #999;
+}
+
+/* Colored links */
 a {
     text-decoration: none;
     color: #6ab47b;
 }
 
-#wrapper {
-    max-width: 940px;
-    margin: 0 auto;
-    padding: 0 5%;
-}
+/***************
+    HEADING
+***************/
 
 #logo {
     text-align: center;
     margin: 0;
 }
 
+/* Logo text */
+#logo h1, #logo h2 {
+    color: #fff;
+}
+
+/* Green header */
 header {
     background: #6ab47b;
     border-color: #599a68;
 }
 
-h1, h2 {
-    color: #fff;
-}
-
+/* Green nav background on mobile */
 nav {
     background: #599a68;
 }
 
+/* Nav link color */
 nav a, nav a:visited {
     color: #fff;
 }
 
+/* Selected nav link color */
 nav a.selected, nav a:hover {
     color: #32673f;
 }
 
-body {
-    background-color: #fff;
-    color: #999;
+/***************
+    WRAPPER
+***************/
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
 }
