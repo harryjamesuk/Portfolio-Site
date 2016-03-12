@@ -28,6 +28,13 @@ a {
     color: #fff;
 }
 
+/* h1 font formatting */
+#logo h1 {
+    font-family: 'Changa One', sans-serif;
+    margin: 15px, 0;
+    font-size: 1.75em;
+}
+
 /* Green header */
 header {
     background: #6ab47b;
