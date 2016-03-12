@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color: #6ab47b;
 }
 
 #wrapper {
@@ -11,4 +12,21 @@ a {
 #logo {
     text-align: center;
     margin: 0;
+}
+
+header {
+    background: #6ab47b;
+    border-color: #599a68;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+nav {
+    background: #599a68;
+}
+
+nav a, nav a:visited {
+    color: #fff;
 }
