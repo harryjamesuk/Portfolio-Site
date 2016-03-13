@@ -162,3 +162,35 @@ footer .social-icon {
     margin: 0 auto 30px;
     border-radius: 100%;
 }
+
+.contact-info li.google-plus {
+    background-image: url('../img/google-plus.png');
+}
+
+.contact-info li.email {
+    background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter {
+    background-image: url('../img/twitter.png');
+}
+
+/******************************
+         PAGE: CONTACT
+******************************/
+
+.contact-info li {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
